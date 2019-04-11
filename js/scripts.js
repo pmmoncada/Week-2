@@ -23,6 +23,12 @@ $('#alertButton').on('click', function() {
 	alert('The more you weigh the harder you are to kidnap. Stay safe, eat cake');
 });
 
+$(.question).on('click', function() {$(":submit")};
+
+$(".powers").on("click", ".powers-header", function() {
+ $(this).toggleClass("active").next().slideToggle();
+});
+
 $('.tony').on('click', function() {
   $('#avenger-info').text('The engineer we all want to be. He graduated from MIT at the age of 21 and with multiple degrees.');
 });
