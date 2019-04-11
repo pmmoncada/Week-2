@@ -1,0 +1,60 @@
+body {
+  background: #B3F2FF;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+text-align: center;
+}
+
+h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.choice_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h3 {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 16px;
+text-align: center;
+}
+
+#alertButton {
+   /* trying to make this button as funky appealing as possible */
+  padding: 25px;
+  border-radius: 13px;
+  font-weight: 600;
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+
+
+.avenger {
+  padding: 15px;
+  margin: 5px;
+  color: #bc2e1e;
+  background: #edde9c;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px
+  1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px     2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd,     4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px         #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px     1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+  cursor: pointer;
+}
+
+.avenger:hover {
+  background: red;
+}
+
+
+
+#avenger-info {
+  border: 3px solid;
+  min-height: 80px;
+  padding: 30px;
+}
