@@ -23,8 +23,6 @@ $('#alertButton').on('click', function() {
 	alert('The more you weigh the harder you are to kidnap. Stay safe, eat cake');
 });
 
-$(.question).on('click', function() {$(":submit")};
-
 $(".powers").on("click", ".powers-header", function() {
  $(this).toggleClass("active").next().slideToggle();
 });
